@@ -13,7 +13,7 @@ public class Exercicio1 {
         System.out.println("Digite um número de zero à dez: ");
         nota = input.nextInt();
         
-        while (nota > 10) {
+        while (nota > 10 || nota < 0) {
             System.out.println("Valor inválido, digite um valor solicitado.");
             nota = input.nextInt();
         }
